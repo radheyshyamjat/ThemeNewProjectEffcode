@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+    <RelativeLayout
+
+        android:id="@+id/vgOTPText"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_marginTop="55dp"
+        android:layout_height="wrap_content">
+
+        <in.effcode.App.Views.TextView
+            android:id="@+id/tvSending"
+            android:layout_width="match_parent"
+            android:hint="@string/opt_send_text"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            custom:customTypeface="MavenPro-Bold"
+            android:textColorHint="@color/black_transparent_dark"
+            android:textColor="@color/black_transparent_dark"
+            android:textAllCaps="true"
+            android:layout_height="60dp"/>
+
+        <in.effcode.App.Views.TextView
+            android:id="@+id/tvWait"
+            android:layout_below="@+id/tvSending"
+            android:layout_width="match_parent"
+            android:hint="@string/otp_arrive"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:textColorHint="@color/black_transparent_dark"
+            android:textColor="@color/black_transparent_dark"
+            android:textAllCaps="true"
+            android:layout_height="60dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/vgOTPText"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:id="@+id/simpleProgressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:progress="0"/>
+
+        <in.effcode.App.Views.TextView
+            android:id="@+id/tvSecond"
+            android:layout_width="match_parent"
+            android:hint="0:59"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:textColorHint="@color/black_transparent_dark"
+            android:textColor="@color/black_transparent_dark"
+            android:textAllCaps="true"
+            android:layout_height="60dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <in.effcode.App.Views.TextView
+            android:id="@+id/tvSignUpText"
+            android:layout_above="@+id/vgSocialIcon"
+            android:layout_width="match_parent"
+            android:hint="@string/sign_up_social"
+            android:layout_margin="10dp"
+            android:textSize="15dp"
+            android:textColorHint="@color/black_transparent_dark"
+            android:textColor="@color/black_transparent_dark"
+            android:textAllCaps="true"
+            android:layout_height="60dp"/>
+
+
+        <LinearLayout
+            android:id="@+id/vgSocialIcon"
+            android:layout_marginBottom="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_height="70dp">
+
+            <RelativeLayout
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_centerInParent="true"
+                    android:layout_width="15dp"
+                    android:src="@drawable/ic_twitter_black"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_centerInParent="true"
+                    android:layout_width="15dp"
+                    android:src="@drawable/ic_facebook_line_black"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_centerInParent="true"
+                    android:layout_width="15dp"
+                    android:src="@drawable/ic_google_plus_black"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_weight="3.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/btnSubmit"
+                    android:layout_width="60dp"
+                    android:src="@drawable/ic_arrow_right_white"
+                    android:backgroundTint="@color/black_transparent_dark"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

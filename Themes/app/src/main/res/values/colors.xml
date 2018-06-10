@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="grey">#f8f8f9</color>
+    <color name="grey_opacity">#84383733</color>
+    <color name="black_grey">#d7d7d8</color>
+    <color name="colorPrimary2">#6563a4</color>
+    <color name="colorPrimary3">#d667cd</color>
+
+    <color name="top_title_color">#383733</color>
+    <color name="title_background">#F8F8F9</color>
+    <color name="title_text_color">#25252e</color>
+    <color name="title_bar">#FFFFFF</color>
+    <color name="title_bar_text">#1d1d26</color>
+    <color name="text_title">#CCCCCC</color>
+
+    <color name="light_background_opacity">#B350d2c2</color>
+    <color name="color_primary2_opacity">#c86563a4</color>
+
+    <color name="bottom_background">#33ffffff</color>
+
+    <color name="text_gray">#a8a8aa</color>
+    <color name="text_purple">#800080</color>
+    <color name="text_dark">#1d1d26</color>
+    <color name="text_silver">#C0C0C0</color>
+    <color name="text_light_white">#E2E2E2</color>
+    <color name="tabBackground">#8d50d2c2</color>
+    <color name="subjectBackground">#3D1d1d26</color>
+
+    <color name="receiver_bg">#eeeeee</color>
+    <color name="sender_bg">#d3eae7</color>
+
+    <color name="present">@color/tabBackground</color>
+    <color name="absent">#4DFF0000</color>
+
+    <color name="exempted">#4dfff200</color>
+    <color name="guest_lecture">#7cffd740</color>
+
+
+    <color name="float_button">#F45A73</color>
+    <color name="white_transparent_dark">#88FFFFFF</color>
+    <color name="black_transparent_dark">#CC000000</color>
+    <color name="color_general">#F7F8FA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="facebookColor">#3B5998</color>
+    <color name="g_mail_color">#C71610</color>
+    <color name="facebook_color_transparent">#593b5998</color>
+    <color name="top_color">#7c515356</color>
+
+</resources>

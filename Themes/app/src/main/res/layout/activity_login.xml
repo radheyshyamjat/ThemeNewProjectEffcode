@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme.NoActionBar"
+    tools:context="in.effcode.App.Activity.LoginActivity">
+
+    <RelativeLayout
+        android:background="@drawable/homepage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/grey_opacity"
+        android:layout_height="match_parent"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="match_parent">
+
+        <in.effcode.App.Views.Button
+            android:layout_above="@+id/btnSignUpViaMail"
+            android:id="@+id/btnLoginViaFacebook"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:visibility="visible"
+            android:padding="5dp"
+            android:text="@string/facebook_login"
+            android:inputType="text"
+            android:lines="1"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/login_button_shape"
+            android:paddingBottom="12dp"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <in.effcode.App.Views.Button
+            android:id="@+id/btnSignUpViaMail"
+            android:layout_above="@+id/btnForgetPassword"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:inputType="text"
+            android:background="@drawable/signup_button_shape"
+            android:text="@string/sign_up_via_email"
+            android:textColor="@color/white"
+            android:layout_height="60dp"/>
+
+        <in.effcode.App.Views.TextView
+            android:id="@+id/btnForgetPassword"
+            android:layout_width="match_parent"
+            android:text="@string/forgot_password"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_height="60dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Themes</string>
+    <string name="facebook_login">Log In with Facebook</string>
+    <string name="sign_up_via_email">Log In Via Gmail</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="follow">Follow</string>
+    <string name="enter_mobile">Phone number</string>
+    <string name="enter_phone">Phone number or mail</string>
+    <string name="eduknox">EFFCODE  |  TECHNOLOGY</string>
+    <string name="account_create">Create your \nown account Today.</string>
+    <string name="account_description">Let\'s login right now. \nJust put your Login and Password.</string>
+    <string name="password">Password</string>
+    <string name="sign_up_social">Sign up with social networks:</string>
+    <string name="opt_send_text">We\'re Sending you the code. \nPlease wait.</string>
+    <string name="otp_arrive">The code will arrive within one minute.</string>
+
+    <string-array name="profile_tab_titles">
+        <item>Peoples</item>
+        <item>Photos</item>
+        <item>Videos</item>
+    </string-array>
+</resources>
